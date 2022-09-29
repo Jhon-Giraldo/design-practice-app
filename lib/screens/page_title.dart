@@ -12,7 +12,7 @@ class PageTitle extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Classify transaction', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Colors.white)),
+            Text('Classify Transaction', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Colors.white)),
             SizedBox(height: 10),
             Text('Classify this transaction into a \nparticular category', style: TextStyle(fontSize: 18, color: Colors.white))
           ],

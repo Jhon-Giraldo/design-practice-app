@@ -1,7 +1,8 @@
+import 'package:flutter/material.dart';
 import 'package:design_practice_1/screens/page_title.dart';
 import 'package:design_practice_1/widgets/brackground.dart';
+import 'package:design_practice_1/widgets/card_table.dart';
 import 'package:design_practice_1/widgets/custom_button_navigation_bar.dart';
-import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -32,7 +33,11 @@ class _HomeBody extends StatelessWidget {
         children: [
 
           //Titles
-          PageTitle()
+          PageTitle(),
+
+          //Card Table
+          CardTable(),
+
 
         ],
       ),
